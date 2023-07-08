@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>NIALM SIMULATOR</title>
+</head>
+<body>
+    <h1>NIALM SIMULATOR</h1>
+    <div class="column">
+        <div>
+            <div class="label">Kettle</div>
+            <button id="kettle-on" class="button button-on" onclick="turnOn('kettle')" >ON</button>
+            <button id="kettle-off" class="button button-off"  disabled onclick="turnOff('kettle')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Water Heater</div>
+            <button id="water-heater-on" class="button button-on" onclick="turnOn('water-heater')" >ON</button>
+            <button id="water-heater-off" class="button button-off"  disabled onclick="turnOff('water-heater')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Oven</div>
+            <button id="oven-on" class="button button-on" onclick="turnOn('oven')" >ON</button>
+            <button id="oven-off" class="button button-off"  disabled onclick="turnOff('oven')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Induction Cooker</div>
+            <button id="induction-cooker-on" class="button button-on" onclick="turnOn('induction-cooker')">ON</button>
+            <button id="induction-cooker-off" class="button button-off" disabled onclick="turnOff('induction-cooker')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Air Fryer</div>
+            <button id="air-fryer-on" class="button button-on" onclick="turnOn('air-fryer')">ON</button>
+            <button id="air-fryer-off" class="button button-off"  disabled onclick="turnOff('air-fryer')">OFF</button>
+        </div>
+    </div>
+    <div class="column">
+        <div>
+            <div class="label">Fan (Others)</div>
+            <button id="fan-on" class="button button-on" onclick="turnOn('fan')" >ON</button>
+            <button id="fan-off" class="button button-off"  disabled onclick="turnOff('fan')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Lamp (Others)</div>
+            <button id="lamp-on" class="button button-on" onclick="turnOn('lamp')" >ON</button>
+            <button id="lamp-off" class="button button-off"  disabled onclick="turnOff('lamp')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Hair Dryer (Others)</div>
+            <button id="hair-dryer-on" class="button button-on" onclick="turnOn('hair-dryer')" >ON</button>
+            <button id="hair-dryer-off" class="button button-off"  disabled onclick="turnOff('hair-dryer')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Cofee Maker</div>
+            <button id="coffee-maker-on" class="button button-on" onclick="turnOn('coffee-maker')">ON</button>
+            <button id="coffee-maker-off" class="button button-off" disabled onclick="turnOff('coffee-maker')">OFF</button>
+        </div>
+        <div>
+            <div class="label">Blender</div>
+            <button id="blender-on" class="button button-on" onclick="turnOn('blender')">ON</button>
+            <button id="blender-off" class="button button-off" disabled onclick="turnOff('blender')">OFF</button>
+        </div>
+    </div>  
+    <script src="../static/action.js"></script>
+</body>
+</html>
